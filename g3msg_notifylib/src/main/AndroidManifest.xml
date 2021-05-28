@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.rmj.ggc.g3msg_notifylib">
+
+    <application>
+        <activity
+            android:name="org.rmj.ggc.g3msg_notifylib.Activities.Activity_MessageView"
+            android:theme="@style/NotificationLibraryMaterialTheme"
+            tools:ignore="InnerclassSeparator" />
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_notificationBadge"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_notification_toggled"/>
+
+        <TextView
+            android:id="@+id/lbl_badgeNtf"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:autoSizeMaxTextSize="12sp"
+            android:autoSizeMinTextSize="6sp"
+            android:autoSizeTextType="uniform"
+            android:background="@drawable/badge_background"
+            android:gravity="center"
+            android:text="10"
+            android:maxLines="1"
+            android:maxLength="2"
+            android:textColor="@color/textColorPrimaryLight"
+            android:textStyle="bold"
+            android:layout_alignRight="@id/img_notificationBadge"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="NOTIFICATIONS"
+        android:textColor="@color/textColorPrimaryLight"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMaxTextSize="14sp"
+        android:autoSizeMinTextSize="8sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

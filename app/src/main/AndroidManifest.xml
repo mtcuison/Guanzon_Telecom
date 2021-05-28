@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.rmj.ggc.telecom">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_cash_manager"
+        android:label="@string/app_name"
+        android:manageSpaceActivity="org.rmj.ggc.telecom.Activity.UnClearableActivity"
+        android:roundIcon="@mipmap/ic_cash_manager_circle"
+        android:supportsRtl="true"
+        android:theme="@style/Telecom_MaterialTheme">
+        <activity android:name="org.rmj.ggc.telecom.Activity.Activity_DownloadAssets" />
+
+        <activity
+            android:name="org.rmj.ggc.telecom.Activity.Activity_Dashboard"
+            android:screenOrientation="fullSensor" />
+
+        <service
+            android:name="org.rmj.ggc.telecom.ServiceHandler.SyncService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <service
+            android:name="org.rmj.ggc.telecom.ServiceHandler.Telecom_Service"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            tools:ignore="InnerclassSeparator" />
+
+        <activity
+            android:name="org.rmj.ggc.telecom.Activity.WelcomeLauncherActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name="org.rmj.ggc.telecom.Activity.UnClearableActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name="org.rmj.ggc.telecom.Activity.Activity_Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="org.rmj.ggc.telecom.Firebase.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+
+        <receiver android:name="org.rmj.ggc.telecom.ServiceHandler.ActionBroadcast">
+            <intent-filter>
+                <action android:name="android.intent.action.TELECOM_SUCCESS_LOGIN" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

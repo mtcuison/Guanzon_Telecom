@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="abt_app_name">Guanzon Telecom</string>
+    <string name="abt_header1">The Guanzon Group of Companies, on its 73rd year, banners the continued success of its registered companies:</string>
+    <string name="abt_GMC">Guanzon Merchandising Corporation(1983)</string>
+    <string name="abt_LGK">LGK Guanzon Incorporated(1990)</string>
+    <string name="abt_UEMI">United Excelsior Marketing Incorporated(1998)</string>
+    <string name="abt_MC">Motorcentrum Corporation(2003)</string>
+    <string name="abt_GT">Guanzon Telecom</string>
+
+    <string name="abt_header2">Corporate Mission</string>
+    <string name="abt_h2Phrase">Guanzon Group of Companies will always strive in helping every Filipino make their life comfortable by providing the best and quality products and services.</string>
+    <string name="abt_header3">Corporate Vision</string>
+    <string name="abt_h3Phrase">The Guanzon Group visions to become a national brand and an economically resilient group that brings joy to the Organization and the communities it serves.</string>
+    <string name="abt_header4">Mission Statement</string>
+    <string name="abt_h4Phrase">Guanzon Group of Companies aims to:</string>
+    <string name="abt_h4Phrase1">1. To establish and maintain competitiveness in the motorcycle and mobile phone retail industry.</string>
+    <string name="abt_h4Phrase2">2. To attain and maintain a harmonious working relationship between the employees and the Management. </string>
+    <string name="abt_h4Phrase3">3. To provide an avenue where customers can enjoy the best value products and services. </string>
+    <string name="abt_h4Phrase4">4. To foster long term and stable relationship with suppliers thereby enhancing quality and reliability.</string>
+    <string name="abt_h4Phrase5">5. To uphold and maintain at all times the highest standard of business ethics.</string>
+    <string name="abt_header5">Corporate Philosophy</string>
+    <string name="abt_h5Phrase">Guanzon Group of Companies’ philosophy is about working hard — in harmony with others and always possess customer oriented set of minds. It is putting together substaintially to achieve Global Market Progress.</string>
+</resources>

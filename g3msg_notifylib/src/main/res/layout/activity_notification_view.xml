@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activities.Activity_MessageView"
+    android:theme="@style/NotificationLibraryMaterialTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ntf_headerTextColor">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_notificationView"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:theme="@style/NotificationToolbarTheme"
+        app:popupTheme="@style/ToolbarPopUpTheme_Notification"
+        app:titleTextColor="@color/ntf_headerTextColor" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager_notification"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

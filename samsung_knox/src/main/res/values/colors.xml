@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="knox_window_DarkBackground">#101010</color>
+    <color name="knox_window_LightBackground">#E2E2E2</color>
+    <color name="knox_colorPrimary">#1B1B1B</color>
+    <color name="knox_colorPrimaryDark">#000000</color>
+    <color name="knox_colorAccent">#F88222</color>
+
+    <color name="textColorPrimaryDark">#101010</color>
+    <color name="textColorPrimaryLight">#E2E2E2</color>
+    <color name="textColorUniform">#F47420</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="semiTransparent">#81000000</color>
+    <color name="abt_bg_color">#D8000000</color>
+
+
+    <color name="Knox_Pending">#101010</color>
+    <color name="Knox_Active">#15AB0B</color>
+    <color name="Knox_Activating">#282928</color>
+    <color name="Knox_Lock">#F91C1C</color>
+    <color name="Knox_Locking">#F84622</color>
+</resources>

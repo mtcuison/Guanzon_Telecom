@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/MaterialWhite"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="10dp"
+    app:cardMaxElevation="3dp"
+    app:cardElevation="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_weight="1.8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:background="@color/cardview_Title">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/dialog_titleround"
+                android:tint="@color/colorAccent"
+                android:layout_margin="3dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/dialog_titleround"
+                android:tint="@color/MaterialWhite"
+                android:layout_margin="3dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/dialog_titleround"
+                android:tint="@color/colorPrimaryDark"
+                android:layout_margin="3dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight=".2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/img_dialogType"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/dialog_warning"
+                android:adjustViewBounds="true"/>
+
+            <LinearLayout
+                android:layout_weight=".8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_weight="1.5"
+                    android:id="@+id/lbl_dialogTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="WARNING"
+                    android:textSize="24sp"
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimaryDark"/>
+
+                <TextView
+                    android:layout_weight=".5"
+                    android:id="@+id/lbl_dialogMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="well you can use findViewById(android.R.id.content) or getWindow().getDecorView() to get root view of your activity"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="22dp"
+                    android:autoSizeMinTextSize="14sp"
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimaryDark"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1.2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+                <Button
+                    android:id="@+id/btn_dialogPositive"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:text="Okay"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMinTextSize="12sp"
+                    android:autoSizeMaxTextSize="18sp"
+                    android:textColor="@color/textColorPrimaryDark"
+                    android:background="@drawable/dialog_button_light"
+                    android:layout_margin="5dp"
+                    android:visibility="gone"/>
+
+                <Button
+                    android:id="@+id/btn_dialogNegative"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:text="Okay"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMinTextSize="12sp"
+                    android:autoSizeMaxTextSize="18sp"
+                    android:textColor="@color/textColorPrimaryDark"
+                    android:background="@drawable/dialog_button_light"
+                    android:layout_margin="5dp"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

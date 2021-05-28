@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.rmj.ggc.telecom.Fragment.fragment_MainMenu"
+    android:theme="@style/Telecom_MaterialTheme"
+    android:baselineAligned="false">
+
+    <ScrollView
+        android:id="@+id/ScrV_MenuItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_tcm_creditApp"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    style="@style/Telecom_DashBoardButtons">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.5"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:src="@drawable/ic_credit_application"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight=".5"
+                            android:text="Credit Application"
+                            android:gravity="center_horizontal|bottom"
+                            android:textColor="@color/textColorPrimary"
+                            android:fontFamily="@font/roboto_medium"
+                            android:paddingBottom="3dp"
+                            tools:ignore="HardcodedText" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorAccent"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="Loan application for smarthpones"
+                            android:textSize="12sp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/textColorPrimary"
+                            android:fontFamily="@font/roboto_regular"
+                            android:paddingTop="3dp"
+                            tools:ignore="HardcodedText" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_tcm_KnoxRegxx"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    style="@style/Telecom_DashBoardButtons">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.5"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:src="@drawable/ic_barcode"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight=".5"
+                            android:text="Knox"
+                            android:gravity="center_horizontal|bottom"
+                            android:textColor="@color/textColorPrimary"
+                            android:fontFamily="@font/roboto_medium"
+                            android:paddingBottom="3dp"
+                            tools:ignore="HardcodedText" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorAccent"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="Samsung knox"
+                            android:textSize="12sp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/textColorPrimary"
+                            android:fontFamily="@font/roboto_regular"
+                            android:paddingTop="3dp"
+                            tools:ignore="HardcodedText" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_tcm_CashCount"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    style="@style/Telecom_DashBoardButtons">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.5"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:src="@drawable/ic_voucher"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight=".5"
+                            android:text="Promo"
+                            android:gravity="center_horizontal|bottom"
+                            android:textColor="@color/textColorPrimary"
+                            android:fontFamily="@font/roboto_medium"
+                            android:paddingBottom="3dp"
+                            tools:ignore="HardcodedText" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorAccent"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="Promo/Raffle Entry"
+                            android:textSize="12sp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/textColorPrimary"
+                            android:fontFamily="@font/roboto_regular"
+                            android:paddingTop="3dp"
+                            tools:ignore="HardcodedText" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_tcm_ApplList"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    style="@style/Telecom_DashBoardButtons">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.5"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:src="@drawable/ic_draft"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight=".5"
+                            android:text="Applications List"
+                            android:gravity="center_horizontal|bottom"
+                            android:textColor="@color/textColorPrimary"
+                            android:fontFamily="@font/roboto_medium"
+                            android:paddingBottom="3dp"
+                            tools:ignore="HardcodedText" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorAccent"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="Detailed list of loan applicantions"
+                            android:textSize="12sp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/textColorPrimary"
+                            android:fontFamily="@font/roboto_regular"
+                            android:paddingTop="3dp"
+                            tools:ignore="HardcodedText" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_tcm_CshCntList"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    style="@style/Telecom_DashBoardButtons">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.5"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:src="@drawable/ic_cash_count_list"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight=".5"
+                            android:text="Cash Count List"
+                            android:gravity="center_horizontal|bottom"
+                            android:textColor="@color/textColorPrimary"
+                            android:fontFamily="@font/roboto_medium"
+                            android:paddingBottom="3dp"
+                            tools:ignore="HardcodedText" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorAccent"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="list of sent and unsent cash counts"
+                            android:textSize="12sp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/textColorPrimary"
+                            android:fontFamily="@font/roboto_regular"
+                            android:paddingTop="3dp"
+                            tools:ignore="HardcodedText" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_tcm_AppHelpxx"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    style="@style/Telecom_DashBoardButtons">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.5"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:src="@drawable/ic_help"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight=".5"
+                            android:text="Help"
+                            android:gravity="center_horizontal|bottom"
+                            android:textColor="@color/textColorPrimary"
+                            android:fontFamily="@font/roboto_medium"
+                            android:paddingBottom="3dp"
+                            tools:ignore="HardcodedText" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorAccent"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="Instructions how to use telecom app"
+                            android:textSize="12sp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/textColorPrimary"
+                            android:fontFamily="@font/roboto_regular"
+                            android:paddingTop="3dp"
+                            tools:ignore="HardcodedText" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/lbl_dashboard_appVersion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Build Version 1.0.1 - 1vc"
+                android:textColor="@color/colorAccent"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

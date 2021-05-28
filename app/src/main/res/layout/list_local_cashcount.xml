@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:background="@drawable/listview_selector">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+        <LinearLayout
+            android:id="@+id/ID_ThumbNail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:id="@+id/Img_sync_status"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_local_database"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lbl_LogDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/ID_ThumbNail"
+            android:layout_toRightOf="@id/ID_ThumbNail"
+            android:text="Date: 12-12-12"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/Black"
+            android:typeface="serif"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/lbl_LogUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lbl_LogDate"
+            android:layout_toRightOf="@id/ID_ThumbNail"
+            android:text="UserID: 090129123"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/Black"
+            android:typeface="serif"/>
+
+        <TextView
+            android:id="@+id/lbl_LogTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/lbl_LogDate"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:gravity="right"
+            android:text="12:30 PM"
+            android:textColor="@color/Black"
+            android:typeface="serif"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

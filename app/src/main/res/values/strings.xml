@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Guanzon Telecom</string>
+
+    <string name="TitleBar">G-Cash Register</string>
+    <string name="LabelTotal">Total</string>
+    <string name="LabelQuantity">Enter Quantity</string>
+
+    <string name="One_K">₱1000</string>
+    <string name="Five_Hundred">₱500</string>
+    <string name="Two_Hundred">₱200</string>
+    <string name="One_Hundred">₱100</string>
+    <string name="Fifty">₱50</string>
+    <string name="Twenty">₱20</string>
+    <string name="Ten">₱10</string>
+    <string name="Five">₱5</string>
+    <string name="One_Peso">₱1</string>
+    <string name="twenty_five_cents">¢25</string>
+    <string name="Ten_cents">¢5</string>
+    <string name="Five_cents">¢1</string>
+
+    <string name="lblPesoBill">Peso Bills (₱)</string>
+    <string name="lblCoinBill">Coin Bills (₱)</string>
+    <string name="lblCentavos">Centavo (¢)</string>
+
+    <string name="btnSend">Send</string>
+    <string name="lblDate">Date: </string>
+    <string name="lblGrandTotal">Grand Total</string>
+    <string name="lblQuantity">Quantity</string>
+    <string name="lblTotal">Total</string>
+    <string name="lblBranch">Branch Code: </string>
+    <string name="lblUserID">UserID</string>
+    <string name="lblLogOut">Logout</string>
+    <string name="valueUserID">192.168.203.000</string>
+    <string name="valueDate">12/12/18</string>
+    <string name="lblOR">Official Receipt No.</string>
+    <string name="lblSI">Sales Invoice No.</string>
+    <string name="lblPR">Provisional Receipt No.</string>
+    <string name="lblCR">Collection Receipt No.</string>
+    <string name="lblRequestName">Request Name</string>
+    <string name="lblNetStatus">Status:</string>
+    <string name="lblUsername">Username</string>
+    <string name="lblCashGrandTotal">Cash Grand Total</string>
+    <string name="lblLogin">Login</string>
+    <string name="lblNetworkStatus">Network Status</string>
+    <string name="lblBranchName">Branch Name</string>
+    <string name="lblTransNox">Transaction No.</string>
+    <string name="lblEMEI">IMEI</string>
+    <string name="lblScanBarcode">Tap the icon above to scan barcode.</string>
+    <string name="lblFgtPassword">Forgot Password?</string>
+
+    <string name="hintEMEI">Enter IMEI...</string>
+    <string name="hintUsername">Username</string>
+    <string name="hintPassword">Password</string>
+    <string name="hintRemarks">Remarks (Optional)</string>
+
+    <string name="err_username">Enter Username</string>
+    <string name="err_password">Enter Password</string>
+    <string name="err_InvalidLogin">Invalid Credentials</string>
+
+    <string name="lbl_Done">DONE</string>
+    <string name="lbl_success_msg">Cash details has been uploaded successfully.</string>
+    <string name="lblSend">Activate</string>
+    <string name="lblSave">Save</string>
+    <string name="lblInstructions">Instructions</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Guanzon Telecom</string>
+    <string name="nav_header_subtitle">www.guanzongroup.com.ph</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="action_exit">Exit</string>
+    <string name="btnCashCount">Cash Count</string>
+    <string name="btnImeiScan">Imei Scan</string>
+    <string name="btnLogOut">Logout</string>
+    <string name="btnExit">Exit</string>
+    <string name="title_activity_dashboard_main">DashboardMainActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/textColorPrimaryLight"
+    android:orientation="vertical"
+    tools:context="org.rmj.ggc.samsung_knox.Fragments.Fragment_KnoxActivate">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.3"
+        android:baselineAligned="false"
+        android:padding="10dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_knoxImei"
+            style="@style/Knox_TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:hint="Enter device Imei here..."
+            android:textColorHint="@color/knox_colorAccent"
+            tools:ignore="HardcodedText">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_knoxImei"
+                style="@style/Knox_InputField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoSizeMaxTextSize="18sp"
+                android:autoSizeMinTextSize="12sp"
+                android:autoSizeTextType="uniform"
+                android:drawableStart="@drawable/ic_icon_metro_qrcode"
+                android:drawableLeft="@drawable/ic_icon_metro_qrcode"
+                android:drawablePadding="5dp"
+                android:inputType="text"
+                android:maxLength="16"
+                android:textColor="@color/textColorPrimaryDark"
+                android:textColorHint="@color/textColorPrimaryDark" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageButton
+            android:id="@+id/btn_knoxScan"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:layout_below="@id/til_knoxImei"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_knox_scan"
+            style="@style/Widget.AppCompat.Button.Borderless"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="15dp"
+        android:layout_weight="1">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_knoxRemarks"
+            style="@style/Knox_TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:hint="Enter some remarks here..."
+            android:textColorHint="@color/knox_colorAccent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_knoxRemarks"
+                style="@style/Knox_InputField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoSizeMaxTextSize="18sp"
+                android:autoSizeMinTextSize="12sp"
+                android:autoSizeTextType="uniform"
+                android:drawableLeft="@drawable/ic_remarks"
+                android:drawablePadding="5dp"
+                android:textColor="@color/textColorPrimaryDark"
+                android:textColorHint="@color/textColorPrimaryDark" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_knoxRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/til_knoxRemarks"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="20dp"
+            android:autoSizeMaxTextSize="18sp"
+            android:autoSizeMinTextSize="12sp"
+            android:autoSizeTextType="uniform"
+            android:text="Activate"
+            android:textColor="@color/knox_colorPrimaryDark"
+            app:backgroundTint="@color/knox_colorAccent" />
+    </RelativeLayout>
+
+</LinearLayout>

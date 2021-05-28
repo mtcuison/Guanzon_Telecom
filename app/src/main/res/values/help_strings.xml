@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hlp_firstMessage">How to use Cash Register.</string>
+    <string name="hlp_ins2">1.Tap "Cash Register".</string>
+    <string name="hlp_ins3">2.Now enter the quantity for each bill in the quantity area(middle area of input field).</string>
+    <string name="hlp_ins4">3.After entering the cash count details. Tap "Continue".</string>
+    <string name="hlp_ins5">4.Search RequestName by entering the name of employer and Tap Search Button "🔍" then select the employer name.</string>
+    <string name="hlp_ins6">5.Before sending cash count make sure the following fields are not empty.</string>
+    <string name="hlp_ins7"> -Official Receipt No.</string>
+    <string name="hlp_ins8"> -Sales Invoice No.</string>
+    <string name="hlp_ins9"> -Provisional Receipt No.</string>
+    <string name="hlp_ins10"> -Collection Receipt No.</string>
+    <string name="hlp_ins11">6.Tap Send to send cash count.</string>
+
+    <string name="hlp_Knox">How to use Knox Registration.</string>
+    <string name="hlp_barcodeIns">Instructions</string>
+    <string name="brcd_0">To Manually enter the device IMEI.</string>
+    <string name="brcd_1">1.Tap the Imei input field and enter the IMEI of a device.</string>
+    <string name="brcd_2">2.Tap and enter the remarks you want to put in the remarks field.</string>
+    <string name="brcd_3">3.Tap Activate to activate the device.</string>
+    <string name="brcd_4">To Scan device IMEI.</string>
+    <string name="brcd_5">1.Tap the barcode icon to Scan device IMEI code.</string>
+    <string name="brcd_6">2.After scanning device IMEI code. The IMEI will be automatically put on the Imei Input field.</string>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "261829032684",
+    "firebase_url": "https://guanzon-telecom.firebaseio.com",
+    "project_id": "guanzon-telecom",
+    "storage_bucket": "guanzon-telecom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261829032684:android:5a90abe3b82b7c1140c3c9",
+        "android_client_info": {
+          "package_name": "org.rmj.ggc.telecom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261829032684-9ko8k2cpfd85hiulsuqe520p3v39628s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZbp_R-qqfLXtKepV-8f-qStDAhVa9g_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261829032684-9ko8k2cpfd85hiulsuqe520p3v39628s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

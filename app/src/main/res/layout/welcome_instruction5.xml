@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark_background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note: If the device is disconnected on wifi connection/network data connection cash count transactions will not be send successfully."
+        android:textColor="@color/White"
+        android:typeface="serif"
+        android:textSize="14sp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List of successful cash count transaction are save in server data."
+        android:textColor="@color/White"
+        android:typeface="serif"
+        android:textSize="14sp"
+        android:layout_margin="5dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/server_data_img"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List of unsuccessful cash count transaction are save in local data."
+        android:textColor="@color/White"
+        android:typeface="serif"
+        android:textSize="14sp"
+        android:layout_margin="5dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/local_data_img"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All items in the local data will be automatically send when the device is has internet connection."
+        android:textColor="@color/White"
+        android:typeface="serif"
+        android:textSize="14sp"
+        android:layout_margin="5dp"
+        android:paddingTop="15dp"/>
+</LinearLayout>

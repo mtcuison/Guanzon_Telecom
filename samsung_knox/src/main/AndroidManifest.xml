@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.rmj.ggc.samsung_knox">
+
+    <application>
+        <activity android:name="org.rmj.ggc.samsung_knox.Activity.Activity_KnoxScanner"></activity>
+        <activity android:name="org.rmj.ggc.samsung_knox.Activity.BarcodeScanner" />
+        <activity android:name="org.rmj.ggc.samsung_knox.Activity.Activity_KnoxAction" />
+        <activity
+            android:name="org.rmj.ggc.samsung_knox.Activity.Activity_Knox"
+            android:theme="@style/Knox_MaterialTheme" />
+    </application>
+
+</manifest>
